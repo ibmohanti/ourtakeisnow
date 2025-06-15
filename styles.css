@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2>family=Poppins:wght@400;700&display=swap');
+body {
+    font-family: 'Poppins',sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;    
+}
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -20,4 +29,12 @@ button {
 
 button:hover {
     background-color: #0056b3;
+    transform: scale(1.1);
 }
+button  {
+    transition: all 0.3s ease-in-out ;
+}
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+} 
